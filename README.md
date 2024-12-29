@@ -1,1 +1,1 @@
-# simple-counter
+# Simple Counter
