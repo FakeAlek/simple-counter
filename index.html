@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter</title>
+    <link rel="icon" type="image/x-icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./main.css">
+    
+    <meta content="Simple Clicker" property="og:title" />
+    <meta content="You can click and yeah this is all." property="og:description" />
+    <meta content="./img/icon.png" property="og:url" />
+    <!-- <meta content="https://embed.com/embedimage.png" property="og:image" /> -->
+    <meta content="#0466c8" data-react-helmet="true" name="theme-color" />
+</head>
+<body>
+    <header>
+        <h1>Simple Counter</h1>
+        <!-- <img class="logo" src="./img/icon.png"> -->
+    </header>
+
+    <main>
+        <p class="num" id="number">[Number]</p>
+
+        <div class="opt">
+            <button class="BTN" onclick="high()">+1</button>
+            <button class="BTN" onclick="down()">-1</button>
+            <button class="BTN" onclick="reset()">Reset</button>
+        </div>
+        
+    </main>
+
+    <script src="./counter.js"></script>
+</body>
+</html>
